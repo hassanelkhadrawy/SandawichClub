@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.hassan.sandawichclub.MainActivity">
+
+    <ListView
+        android:scrollbarSize="20dp"
+        android:scrollbarStyle="outsideInset"
+        android:id="@+id/sandwiches_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt"
+    android:textColor="#fff"/>
+</RelativeLayout>
